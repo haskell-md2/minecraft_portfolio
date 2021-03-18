@@ -1,0 +1,10 @@
+name: CeZombies
+version: ALPHA-1.1
+main: haskell_md2.cezombies.Cezombies
+authors: [haskell_md2]
+description: Special for VitosPro
+website: https://github.com/haskell-md2
+
+commands:
+  referencetojojo:
+
