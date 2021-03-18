@@ -1,0 +1,11 @@
+name: Airdrop
+version: 1.0
+main: airdrop.Airdrop
+authors: [haskell_md2]
+description: Plugin adding airdrops to minecraft
+website: https://github.com/haskell-md2
+
+commands:
+  airdrop:
+    usage: /airdrop <PlayerName>
+    description: send airdrop to location

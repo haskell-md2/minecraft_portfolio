@@ -1,0 +1,55 @@
+quantity_of_areas: 1
+
+areas:
+  area1:
+    x_begin: 10
+    z_begin: 10
+    x_end: 20
+    z_end: 20
+  area2:
+    x_begin: -10
+    z_begin: -10
+    x_end: -20
+    z_end: -20
+
+#Колличество вещей в списке ниже
+number_of_variations_of_items: 3
+
+#Список вещей, прописывать i<номер>, rarity - это соотношение редкости 1:rarity
+items:
+  i1:
+    id: 276
+    ammount: 16
+    rarity: 2
+  i2:
+    id: 2
+    ammount: 64
+    rarity: 2
+  i3:
+    id: 264
+    ammount: 1
+    rarity: 100
+
+
+notification_before_drop: '&1Дроп упадёт на координаты: '
+notification: '&1Дроп упал на координаты: '
+timer_text: '&aДо открытия ящика осталось:'
+
+#время до открытия аэрдропа
+time_to_open: 5
+
+#рандомное колличество вещей в одном дропе
+range_of_items_in_one_drop:
+  begin: 5
+  end: 20
+
+the_block_cannot_be_broken_mes: '&cДанный блок не может быть сломан, пожалуйста дождитесь его окрытия'
+
+#название мира
+world_name: 'world'
+
+#интервал между сообщением о скором приземлении и падением
+interval_between_message_and_sending: 60
+
+#интервал между отправками
+interval_betwem_airdrops_opperations: 10
