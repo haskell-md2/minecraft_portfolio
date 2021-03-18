@@ -1,0 +1,12 @@
+coefficient_price: 1000
+rental_time: 30
+regen_price: 1000
+delay_regenerate: 30
+
+messages:
+  no_buy: 'Нельзя купить этот чанк'
+  you_no_have_money: 'У вас недостаточно средств'
+  pay_rent: 'Вы заплатили'
+  cancel_rent: 'У вас забрали чанк'
+  no_your_chunk: 'Это не ваш чанк!'
+  leave_the_chunk: 'В течение %time% секунд на этом чанке будет всё уничтоженно'

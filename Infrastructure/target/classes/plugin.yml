@@ -1,0 +1,16 @@
+name: Infrastructure
+version: v1.1-ALPHA
+main: haskell.Infrastructure
+authors: [haskell_md2]
+description: Plugin dla moego servera
+api-version: 1.16
+
+depend: [PlaceholderAPI,Vault,WorldGuard] # This is used, if your plugin works without PlaceholderAPI.
+
+commands:
+  confirn_rent_function:
+  private_all_chunks_min:
+  private_all_chunks_plus:
+  change_mode:
+  regenerate_chunk:
+    usage: '/regenerate_chunk'
